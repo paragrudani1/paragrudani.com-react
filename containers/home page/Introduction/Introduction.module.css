@@ -1,0 +1,39 @@
+.Introduction {
+    text-align: left;
+    position: relative;
+    margin-top: 40px;
+}
+
+.Introduction::before {
+    content: url('../../../assets/Polygon3.svg');
+    position: absolute;
+    top: -50px;
+    left: -20px;
+    /* width: 414px; */
+    height: 100%;
+    z-index: -11;
+}
+
+.Introduction .headline {
+    color: rgba(229, 229, 229, 0.81);
+    font-family: 'Original Surfer', cursive;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.Introduction h1 {
+    font-family: 'Noto Serif', serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.Introduction .subIntro {
+    font-size: 14px;
+    font-family: Poppins;
+    line-height: 156.4%;
+    /* or 19px */
+    letter-spacing: 0.035em;
+    color: #C3C4C7;
+    margin-top: 20px;
+    font-weight: 500;
+}

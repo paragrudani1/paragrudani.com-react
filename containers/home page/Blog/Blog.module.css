@@ -1,0 +1,102 @@
+.Blog {
+    padding: 50px 30px 50px 30px;
+    background: #252734;
+}
+
+.Blog .Blog_Head {
+    color: rgba(229, 229, 229, 0.81);
+    font-family: 'Original Surfer', cursive;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.Blog .Blog_Title {
+    display: block;
+    /* width: 65%; */
+}
+.Blog .Blog_Title h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 143%;
+    /* or 36px */
+    
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    
+}
+
+.Blog .Blog_Sub {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 156.4%;
+    /* or 22px */
+    margin-top: 15px;
+    letter-spacing: 0.035em;
+    color: #C3C4C7;
+}
+
+.Blog .Blog_header {
+    margin-bottom: 100px;
+}
+
+.Blog .Blog_Detail {
+    position: relative;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    align-items: center;
+}
+
+.Blog .Blog_Detail:after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 95%;
+    height: 1px;
+    background-color:#C3C4C7;
+}
+
+.Blog .Blog_Name p {
+    
+    font-family: Original Surfer;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 208.5%;
+    /* identical to box height, or 25px */
+
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+
+    color: #C3C4C7;
+}
+.Blog .Blog_Name h1  {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 208.5%;
+    /* identical to box height, or 38px */
+
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+}
+
+.Blog .Blog_Detail img {
+    position: relative;
+}
+
+.Blog .Blog_Detail img::before {
+    content:'';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100px;
+    height: 2px;
+    color: yellow;
+}

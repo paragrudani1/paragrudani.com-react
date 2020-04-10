@@ -1,0 +1,112 @@
+.contactSection {
+    background-color: #252734;
+    width: 100%;
+    padding: 80px 30px 80px 30px; 
+    margin-top: 70px;
+    text-align: left;
+}
+
+.contactSection_title h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 156.4%;
+    /* or 34px */
+
+    letter-spacing: 0.035em;
+}
+
+.contactSection_title p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 156.4%;
+    /* or 22px */
+    margin-top: 20px;
+    letter-spacing: 0.035em;
+    color: #C3C4C7;
+}
+
+.Stats {
+    margin-top: 100px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 156.4%;
+}
+
+.Stats .number {
+    color: #F8C826;
+    font-family: Poppins;
+    font-size: 100px;
+    /* or 156px */
+    letter-spacing: 0.035em;
+    color: #F8C826;
+}
+
+.Stats .number p  {
+    font-size: 20px;
+    line-height: 131.4%;
+    /* or 26px */
+    letter-spacing: 0.07em;
+    color: #FFFFFF;
+}
+
+.StatsSection {
+    display: grid;
+    grid-template-columns: .35fr 0fr;
+    margin-top: 100px;
+}
+
+.Contact {
+    margin-top: 100px;
+}
+
+.Contact .Contact_Head {
+    color: rgba(229, 229, 229, 0.81);
+    font-family: 'Original Surfer', cursive;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.Contact .Contact_Title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 156.4%;
+    /* or 34px */
+
+    letter-spacing: 0.035em;
+}
+
+.Contact .Contact_Sub {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 156.4%;
+    /* or 22px */
+    margin-top: 15px;
+    letter-spacing: 0.035em;
+    color: #C3C4C7;
+}
+
+.Contact .Contact_Email {
+    margin-top: 60px;
+}
+
+.Contact .Contact_Email a {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 156.4%;
+    /* or 34px */
+
+    letter-spacing: 0.035em;
+    text-decoration-line: underline;
+    color: #F8C826;
+}

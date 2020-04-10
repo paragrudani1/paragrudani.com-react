@@ -1,0 +1,79 @@
+.Home {
+    padding: 0 30px 0 30px; 
+}
+
+/* Name */
+
+@import url('https://fonts.googleapis.com/css2?family=Ravi+Prakash&display=swap');
+.Title {
+    position: relative;
+    margin-top: 55px;
+}
+
+.Title h1 {
+    font-size: 69px;
+    line-height: 84px;
+    font-family: 'Ravi Prakash', cursive;
+    font-weight: normal;
+    transition: 2s ease-in-out;
+    animation: animateTitle 1s ease-in;
+}
+
+.Title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    width: 40%;
+    height: 10px;
+    background-color: #F8C826;
+}
+
+.Title h1 span {
+    font-size: 88px;
+}
+
+@keyframes animateTitle {
+    0% {
+        opacity: 0;
+    }
+    100% { 
+        opacity: 1;
+    }
+}
+
+
+.Icons > div a img {
+    width: 30px;
+}
+
+.Icons > div:nth-child(2) {
+    margin: 0 50px 0 50px;
+}
+
+.Icons {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.Link {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.Link h3 a {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 90.4%;
+    /* identical to box height, or 18px */
+
+    letter-spacing: 0.075em;
+    text-decoration: underline;
+    text-transform: capitalize;
+    color: #F8C826;
+}

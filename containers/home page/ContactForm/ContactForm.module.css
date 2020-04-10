@@ -1,0 +1,67 @@
+.ContactForm {
+    padding: 60px 30px 50px 30px; 
+}
+
+/* .Contact {
+    margin-top: 40px;
+} */
+
+.Contact .Contact_Title {
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 143%;
+/* or 43px */
+
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+
+}
+
+.Contact .Contact_Sub {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 156.4%;
+    /* or 22px */
+    margin-top: 15px;
+    letter-spacing: 0.035em;
+    color: #C3C4C7;
+}
+
+.Contact .Contact_Email {
+    margin-top: 60px;
+}
+
+.Contact .Contact_Email a {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 156.4%;
+    /* or 34px */
+
+    letter-spacing: 0.035em;
+    text-decoration-line: underline;
+    color: #F8C826;
+}
+
+ .Contact_Email {
+    margin-top: 60px;
+}
+
+ .Contact_Email a {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 156.4%;
+    /* or 34px */
+
+    letter-spacing: 0.035em;
+    text-decoration-line: underline;
+    color: #F8C826;
+}

@@ -1,0 +1,89 @@
+.Portfolio {
+    padding: 50px 30px 50px 30px;
+}
+
+.Portfolio .Portfolio_Head {
+    color: rgba(229, 229, 229, 0.81);
+    font-family: 'Original Surfer', cursive;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.Portfolio .Portfolio_Title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 156.4%;
+    /* or 34px */
+
+    letter-spacing: 0.035em;
+}
+
+.Portfolio .Portfolio_Sub {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 156.4%;
+    /* or 22px */
+    margin-top: 15px;
+    letter-spacing: 0.035em;
+    color: #C3C4C7;
+}
+
+.Portfolio_Detail {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.Portfolio_Detail img {
+    display: block;
+    margin: auto;
+}
+
+.Portfolio_Detail p {
+    color: rgba(229, 229, 229, 0.81);
+    font-family: 'Original Surfer', cursive;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.Portfolio_Detail h1 {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 125%;
+    /* or 31px */
+
+    letter-spacing: 0.075em;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.Portfolio_Detail h1 a {
+    text-decoration: none;
+}
+
+.ExploreMore {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+}
+
+.ExploreMore h3 a {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 90.4%;
+    /* identical to box height, or 18px */
+
+    letter-spacing: 0.075em;
+    text-decoration: underline;
+    text-transform: capitalize;
+    color: #F8C826;
+}

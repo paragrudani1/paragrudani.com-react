@@ -1,0 +1,40 @@
+.Box {
+    padding: 50px;
+    position: relative;
+    margin: 80px auto;
+    width: 85%;
+    height: 340px;
+    background: rgba(66, 70, 87, 0.88);
+    transition: .5s ease-out;
+}
+
+.Box:hover {
+    background: rgba(255, 175, 41, 0.88);
+}
+
+.Box_Content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: baseline;
+    grid-gap: 40px;
+    margin: 75% auto;
+    
+}
+
+.Box img {
+    width: 30px;
+}
+
+.Box h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 156.4%;
+    /* or 47px */
+    
+    letter-spacing: 0.035em;
+
+    color: #FFFFFF;
+}
+
