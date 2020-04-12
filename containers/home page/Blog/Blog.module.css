@@ -1,5 +1,5 @@
 .Blog {
-    padding: 50px 30px 50px 30px;
+    padding: 50px 30px 70px 30px;
     background: #252734;
 }
 
@@ -99,4 +99,16 @@
     width: 100px;
     height: 2px;
     color: yellow;
+}
+
+@media (min-width: 499px) {
+    /* .Blog {
+        padding: 50px 100px 70px 100px;
+    } */
+}
+
+@media (min-width: 768px) {
+    .Blog {
+        padding: 50px 100px 70px 100px;
+    }
 }

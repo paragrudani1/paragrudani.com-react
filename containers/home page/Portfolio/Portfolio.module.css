@@ -1,5 +1,5 @@
 .Portfolio {
-    padding: 50px 30px 50px 30px;
+    padding: 50px 6% 50px 6%;
 }
 
 .Portfolio .Portfolio_Head {
@@ -87,3 +87,11 @@
     text-transform: capitalize;
     color: #F8C826;
 }
+
+
+
+@media (min-width: 768px) {
+    /* .Portfolio {
+        padding: 50px 100px 50px 100px;
+    } */
+} 

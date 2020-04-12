@@ -4,6 +4,7 @@ import classes from './Contact.module.css'
 const Contact = () => {
     return ( 
         <section className={classes.contactSection}>
+            <div className={classes.ContactGrid}>
                 <div className={classes.contactSection_title}>
                     <h1>
                         Every great design begins with an even better story.
@@ -16,19 +17,20 @@ const Contact = () => {
 
                 <div className={classes.Stats}>
                     <div className={classes.StatsSection}>
-                    <h1 className={classes.number}>
-                        2 
-                    </h1>
-                        <p>Years of Experience.</p>
+                        <h1 className={classes.number}>
+                            2 
+                        </h1>
+                            <p>Years of Experience.</p>
                     </div>
 
                     <div className={classes.StatsSection}>
-                    <h1 className={classes.number}>
-                        17 
-                    </h1>
-                        <p>Years Old.</p>
+                        <h1 className={classes.number}>
+                            17 
+                        </h1>
+                            <p>Years Old.</p>
                     </div>
                 </div>
+            </div>
 
                 <div className={classes.Contact}>
                     <p className={classes.Contact_Head}>- Contact </p>

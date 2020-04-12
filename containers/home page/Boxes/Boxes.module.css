@@ -1,11 +1,18 @@
 .Box {
-    padding: 50px;
-    position: relative;
+    /* padding: 50px; */
+    max-width: 350px;
     margin: 80px auto;
     width: 85%;
-    height: 340px;
+    height: 350px;
+    max-height: 400px;
     background: rgba(66, 70, 87, 0.88);
     transition: .5s ease-out;
+    display: grid;
+    grid-gap: 10px;
+    grid-auto-rows: 45%;
+    grid-template-areas: 
+      ". . . ."
+      ". a a .";
 }
 
 .Box:hover {
@@ -13,16 +20,20 @@
 }
 
 .Box_Content {
+    grid-area: a;
+    align-self: center;
+    justify-self: center;
+    max-width: 70%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 30% 70%;
     align-items: baseline;
-    grid-gap: 40px;
-    margin: 75% auto;
+    margin: auto;
     
 }
 
 .Box img {
     width: 30px;
+    margin-top: 10px;
 }
 
 .Box h1 {
@@ -38,3 +49,6 @@
     color: #FFFFFF;
 }
 
+@media (min-width: 768px) {
+    
+}

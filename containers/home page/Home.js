@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/footer'
 import classes from './Home.module.css'
 import Instagram from '../../assets/instagram.svg'
 import Linkedin from '../../assets/linkedin.svg'
@@ -21,6 +22,8 @@ const Home = () => {
         <> 
         <Navbar />
         <main className={classes.Home}>
+            <div className={classes.TitleGrid}>
+                
             <div className={classes.Title}>
                 <h1>Parag <span>Rudani</span></h1>
             </div>
@@ -42,25 +45,31 @@ const Home = () => {
                     </a>
                 </div>
             </div>
+            </div>
 
-            <Introduction />
-
-            <div className={classes.Link}>
-                <h3><a href='#sfgg'>My story</a></h3>
-                <img src={rightArrow} alt='arrow'/>
+            <div className={classes.IntroductionGrid}>
+                <Introduction />
+                <div className={classes.Link}>
+                    <h3><a href='#sfgg'>My story</a></h3>
+                    <img src={rightArrow} alt='arrow'/>
+                </div>
             </div>
         </main>
         
             <Contact />
-
-            <Box link={BoxVector} role='UI/UX Designer' />
-            <Box link={computer} role='Full Stack Developer' />
+            
+            <div className={classes.BoxSection}>
+                <Box link={BoxVector} role='UI/UX Designer' />
+                <Box link={computer} role='Full Stack Developer' />
+            </div>
 
             <Portfolio rightArrow={rightArrow} />
             
             <Blog rightArrow={rightArrow} />
             
             <ContactForm />
+
+            <Footer />
         </>
      );
 }
