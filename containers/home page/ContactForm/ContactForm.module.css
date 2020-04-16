@@ -1,21 +1,27 @@
+
+
 .ContactInfo {
-    padding: 60px 30px 50px 30px; 
+    padding: 60px 10% 50px 10%; 
 }
 
-
-
 .Contact .Contact_Title {
+    display: block;
+    max-width: 450px;
+}
+
+.Contact {
+    max-width: 330px;
+}
+
+.Contact .Contact_Title h1 {
     font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 30px;
-line-height: 143%;
-/* or 43px */
-
-letter-spacing: 0.04em;
-
-color: #FFFFFF;
-
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 143%;
+    /* or 43px */
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
 }
 
 .Contact .Contact_Sub {
@@ -134,12 +140,39 @@ color: #FFFFFF;
 }
 
 
+
 @media (min-width: 768px) {
-    .ContactInfo {
-        padding: 60px 100px 50px 1000px; 
-    }
-    
    .ContactForm {
+       margin-left: 10%;
        width: 70%;
    }
+}
+
+@media (min-width: 1000px) {
+    .ContactSection {
+        display: grid;
+        grid-template-columns: 1fr 1.4fr;
+        position: relative;
+        top: -50px;
+    }
+
+    .ContactInfo {
+        padding: 20px 0 50px 20%; 
+    }
+
+    .ContactForm {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media (min-width:1200px) {
+
+    .ContactInfo {
+        padding: 30px 0 50px 20%; 
+    }
+
+    .Contact .Contact_Title h1 {
+        font-size: 40px;
+    }
 }

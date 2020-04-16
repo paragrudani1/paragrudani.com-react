@@ -1,6 +1,8 @@
 .Blog {
-    padding: 50px 30px 70px 30px;
+    user-select: none;
+    padding: 50px 10% 70px 10%;
     background: #252734;
+    position: relative;
 }
 
 .Blog .Blog_Head {
@@ -27,17 +29,6 @@
     
 }
 
-.Blog .Blog_Sub {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 156.4%;
-    /* or 22px */
-    margin-top: 15px;
-    letter-spacing: 0.035em;
-    color: #C3C4C7;
-}
 
 .Blog .Blog_header {
     margin-bottom: 100px;
@@ -87,6 +78,10 @@
     color: #FFFFFF;
 }
 
+.Blog .Blog_Name h1 a {
+    text-decoration: none;
+}
+
 .Blog .Blog_Detail img {
     position: relative;
 }
@@ -101,14 +96,28 @@
     color: yellow;
 }
 
-@media (min-width: 499px) {
-    /* .Blog {
-        padding: 50px 100px 70px 100px;
-    } */
-}
 
 @media (min-width: 768px) {
+    .Blog .Blog_Title h1 {
+        font-size: 30px;
+    }
+
+    .Blog .Blog_Content {
+        max-width: 800px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1000px) {
     .Blog {
-        padding: 50px 100px 70px 100px;
+        top: -130px;
+    }
+}
+
+@media(min-width: 1300px) {
+    .Blog {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 100px;
     }
 }

@@ -23,9 +23,9 @@ class Navbar extends Component {
                         {/* Logo */}
                         <div className={classes.logo}>
                             <Link to="/home">
-                            <svg width="35" height="39" viewBox="0 0 35 39"         fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M17.5 37L2.34455 9.25002L32.6554 9.25002L17.5 37Z" stroke="#F8C826" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M11.1985 24.1498L17.0137 15.3998L24.4985 23.7998" stroke="#F8C826" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            <svg width="35" height="39" viewBox="0 0 35 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.5 37L2.34455 9.25002L32.6554 9.25002L17.5 37Z" stroke="#F8C826" strokeWidth="3" strokeLinecap="round" />
+                                <path d="M11.1985 24.1498L17.0137 15.3998L24.4985 23.7998" stroke="#F8C826" strokeWidth="3" strokeLinecap="round"  />
                             </svg>
                             </Link>
                         </div>

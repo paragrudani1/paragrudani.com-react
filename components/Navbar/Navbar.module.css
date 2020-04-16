@@ -3,7 +3,7 @@ nav {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    padding: 20px 30px 20px 30px;
+    padding: 20px 10% 20px 10%;
     background-color: rgba(51, 54, 70, 0.56);
     top: 0;
     z-index: 111111;
@@ -55,20 +55,10 @@ nav {
 @media (min-width:768px) {
     
     nav {
-        padding: 20px 100px 20px 100px;
         box-shadow: none;
     }
 
     .burger {
         margin-top: 10px;
-    }
-}
-
-
-@media (min-width:1500px) {
-
-
-    nav {
-        padding: 30px 100px 30px 100px;
     }
 }
